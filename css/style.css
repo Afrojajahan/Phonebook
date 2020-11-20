@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    height: 100%;
+    padding: 40px 0px;
+}
+
+.card-content {
+    margin: 0 auto;
+
+}
+
+input {
+    width: 600px;
+    border: none;
+    border-bottom: 1px solid #55cc55;
+    padding: 15px;
+
+
+}
+
+i {
+    color: #55cc55;
+
+}
+
+.input-field {
+    margin-bottom: 40px;
+}
+
+.btn-custom {
+    background: #00FFB8;
+    color: #ffffff;
+
+}
+
+.search {
+    color: #00FFB8;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+
+#alert p{
+    color:#ff002b;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+#table-list {
+    margin-top: 40px;
+}
+
+.data-table th {
+    width: 150px;
+    background: #00FFB8;
+    padding: 10px;
+    text-align: center;
+}
+
+#contact-list {
+    width: 150px;
+    background: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.delete {
+    color: red;
+    background: #fff;
+    /* width: 130px; */
+}

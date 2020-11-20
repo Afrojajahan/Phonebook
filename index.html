@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/fontawesome-webfont.eot">
+</head>
+
+<body>
+    <section class="container">
+        <div class="card">
+            <div class="card-content">
+                <h5 class="text-center display-4">Phone Book</h5>
+                <div class="row">
+                    <form id="contact-from">
+                        <div class="form-group">
+                            <i class="fa fa-user"></i>
+                            <input type="text" id="name" value="">
+                            <label for="name"></label>
+                        </div>
+
+                        <div class="form-group">
+                            <i class="fa fa-envelope"></i>
+                            <input type="email" id="email" value="">
+                            <label for="email"></label>
+                        </div>
+                        <div class="form-group">
+                            <i class="fa fa-mobile"></i>
+                            <input type="number" id="phone" value="">
+                            <label for="phone"></label>
+                        </div>
+                        <div class="form-group">
+                            <i class="fa fa-birthday-cake"></i>
+                            <input type="text" id="birthday" value="">
+                            <label for="birthday"></label>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-custom" id="submit" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- alert -->
+                <div id="alert"></div>
+
+                <div class="card-action">
+                    <h5 class="text-center py-3">Contact List</h5>
+                    <!-- search -->
+                    <div class="input-field">
+                        <input id="search" type="text" name="search">
+                        <label for="search" class="search">Search by name</label>
+                    </div>
+
+                    <!-- list -->
+
+                    <div id=" table-list">
+                        <table>
+                            <thead class="data-table px-5">
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Phone</th>
+                                <th>Birthday</th>
+                                <th>Delete</th>
+                            </thead>
+                            <tbody id="contact-list"></tbody>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   
+
+</body>
+
+</html>
